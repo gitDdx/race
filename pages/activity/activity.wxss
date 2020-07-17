@@ -1,0 +1,71 @@
+/**activity.wxss**/
+.act_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30rpx 24rpx;
+    box-sizing: border-box;
+    border-bottom: 1px solid #F5F5F5;
+}
+.act_box:last-child{
+    border:none;
+}
+.act_img{
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 4rpx;
+    overflow: hidden;
+    margin-right: 20rpx;
+}
+.act_img>image{
+    width: 100%;
+    height:100%;
+}
+.act_title{
+    color:#000000;
+    font-size:32rpx;
+    line-height:36rpx;
+}
+.act_desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:22rpx;
+    line-height:22rpx;
+    color:#666666;
+    padding-top:15rpx;
+}
+.act_desc>text{
+    padding-right:20rpx;
+}
+.act_progress{
+    width:330rpx;
+}
+.act_status{
+    padding: 5rpx 12rpx;
+    font-size:22rpx;
+    color: #fff;
+    border-radius: 50rpx;
+    background-color: #CCCCCC;
+}
+/*未开始*/
+.act_noStart .act_time{
+    color: #4AC583;
+}
+.act_noStart .act_status{
+     background-color: #4AC583;
+}
+/*报名中、报名截止*/
+.act_entry .act_time{
+    color: #FF9800;
+}
+.act_entry .act_status{
+    background-color: #FF9800;
+}
+/*进行中*/
+.act_entry .act_time{
+    color: #FF6633;
+}
+.act_entry .act_status{
+    background-color: #FF6633;
+}

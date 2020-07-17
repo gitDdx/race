@@ -1,0 +1,82 @@
+.chart_bg{
+    background-color: #4AC583;
+}
+.chart_title{
+    font-size:30rpx;
+    font-weight:bold;
+    padding:40rpx 31rpx 0;
+    box-sizing: border-box;
+    color:#fff;
+}
+.mychart{
+    height: 280rpx;
+}
+/*海报分享*/
+.share_box{
+    padding: 30rpx;
+    box-sizing: border-box;
+    background-color: #F8F8F8;
+}
+.share_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40rpx 95rpx;
+    padding:25rpx 0;
+    background-color: #4AC583;
+    border-radius: 50rpx;
+    color:#fff;
+    font-size:32rpx;
+}
+.share_btn>image{
+    width:36rpx;
+    height:35rpx;
+    margin-right: 10rpx;
+}
+/*分享得内容*/
+.share_swiper_item{
+    border-radius: 6rpx;
+}
+.share_swiper{
+    height: 850rpx;
+}
+.shareCanvas{
+    width: 100%;
+    height: 100%;
+}
+/*分享弹框内容*/
+.canvas{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 999999rpx;
+    background-color: rgba(0,0,0,0.3)
+}
+
+.preview{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color:rgba(0,0,0,0.8);
+    z-index: 2;
+    text-align: center;
+    display:flex;
+    flex-flow:column;
+}
+
+.preview image{
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+    margin-bottom: 5%;
+}
+
+.preview button {
+    margin: 0 20rpx;
+    border-radius: 50px;
+    background-color: #ee2a65;
+    width: 40%;
+}

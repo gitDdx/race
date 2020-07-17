@@ -1,0 +1,15 @@
+<view class="container">
+    <view class="mine_top">
+        <image class="mine_bg" src="../common/images/mine/mine_bg.png"></image>
+        <view class="mine_detail">
+            <view class="mine_img">
+                <image src="../common/images/challenge/challenge_bg.png"></image>
+            </view>
+            <view class="mine_desc">
+                <view class="mine_nickName">墙角下的泥坑</view>
+                <view class="mine_company">成都经济技术开发区（龙泉驿区）勘测 信息工程院工会</view>
+            </view>
+        </view>
+    </view>
+    <view class="mine_bot"></view>
+</view>

@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "ec-canvas": "../../utils/ec-canvas/ec-canvas"
+  },
+  "navigationBarTitleText": "排行榜"
+}

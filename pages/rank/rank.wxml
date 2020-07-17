@@ -1,0 +1,24 @@
+<view class="container">
+    <view class="chart_bg">
+        <view class="chart_title">微信运动步数</view>
+        <view class="mychart">
+            <ec-canvas id="mychart" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+        </view>
+    </view>
+    <view class="share_box">
+        <!--<swiper circular="true" interval="2000" duration="500" class="share_swiper">-->
+          <!--<block wx:for="{{bannerList}}" wx:key="*this">-->
+            <!--<swiper-item class="share_swiper_item">-->
+              <!--&lt;!&ndash;<canvas canvas-id="shareCanvas" class="shareCanvas"></canvas>&ndash;&gt;-->
+            <!--</swiper-item>-->
+          <!--</block>-->
+        <!--</swiper>-->
+        <view class="share_swiper">
+           <canvas canvas-id="shareCanvas" class="shareCanvas"></canvas>
+        </view>
+        <view class="share_btn" bindtap='save'>
+            <image src="../common/images/rank/share.png"></image>
+            <text>分享今日专属运动</text>
+        </view>
+    </view>
+</view>

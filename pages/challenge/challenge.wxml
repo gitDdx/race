@@ -1,0 +1,58 @@
+<view class="container">
+    <view class="challenge_top">
+        <image class="challenge_bg" src="../common/images/challenge/challenge_bg.png"></image>
+    </view>
+    <view class="challenge_bot">
+        <view class="challenge_main">
+            <view class="challenge_tab">
+                <text class="active">3000步</text>
+                <text>5000步</text>
+                <text>8000步</text>
+            </view>
+            <view>
+                <view class="challenge_box box_entry">
+                    <view class="challenge_box_title">
+                        <view class="challenge_title">
+                            <text>挑战3000步</text>
+                            <text>第20190925期</text>
+                        </view>
+                        <view class="challenge_status">报名中</view>
+                    </view>
+                    <view class="challenge_box_subTitle">挑战时间：2019-09-25</view>
+                    <view class="challenge_box_total">
+                        <view class="challenge_count challenge_border">
+                            <view class="challenge_count_tit">参与人数</view>
+                            <view class="challenge_count">296</view>
+                        </view>
+                        <view class="challenge_count">
+                            <view class="challenge_count_tit">奖励积分</view>
+                            <view class="challenge_count">200</view>
+                        </view>
+                    </view>
+                    <view class="challenge_btn">参与挑战</view>
+                </view>
+                <view class="challenge_box box_ong">
+                    <view class="challenge_box_title">
+                        <view class="challenge_title">
+                            <text>挑战3000步</text>
+                            <text>第20190925期</text>
+                        </view>
+                        <view class="challenge_status">进行中</view>
+                    </view>
+                    <view class="challenge_box_subTitle">挑战时间：2019-09-25</view>
+                    <view class="challenge_box_total">
+                        <view class="challenge_count challenge_border">
+                            <view class="challenge_count_tit">参与人数</view>
+                            <view class="challenge_count">296</view>
+                        </view>
+                        <view class="challenge_count">
+                            <view class="challenge_count_tit">奖励积分</view>
+                            <view class="challenge_count">200</view>
+                        </view>
+                    </view>
+                    <view class="challenge_btn">已参与</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

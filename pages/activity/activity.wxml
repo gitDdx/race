@@ -1,0 +1,47 @@
+<!--activity.wxml-->
+<view class="container">
+    <view class="act_box">
+        <view class="act_img">
+            <image src="../common/images/challenge/challenge_bg.png"></image>
+        </view>
+        <view class="act_cont">
+            <view class="act_title">快乐工作 健康生活职工健步行 活动正式启动！</view>
+            <view class="act_desc">
+                <text>报名所需：50积分</text>
+                <text>签到奖励：100积分</text>
+            </view>
+            <view class="act_desc">
+                <text>已报名 16/20</text>
+                <view class="act_progress">
+                    <progress percent="60" color="#CCCCCC" border-radius="50"/>
+                </view>
+            </view>
+            <view class="act_desc">
+                <text class="act_time">距离活动结束：16天01时08分22秒</text>
+                <view class="act_status">已结束</view>
+            </view>
+        </view>
+    </view>
+    <view class="act_box act_noStart">
+        <view class="act_img">
+            <image src="../common/images/challenge/challenge_bg.png"></image>
+        </view>
+        <view class="act_cont">
+            <view class="act_title">快乐工作 健康生活职工健步行 活动正式启动！</view>
+            <view class="act_desc">
+                <text>报名所需：50积分</text>
+                <text>签到奖励：100积分</text>
+            </view>
+            <view class="act_desc">
+                <text>已报名 16/20</text>
+                <view class="act_progress">
+                    <progress percent="60" color="#4AC583" border-radius="50"/>
+                </view>
+            </view>
+            <view class="act_desc">
+                <text class="act_time">距离活动结束：16天01时08分22秒</text>
+                <view class="act_status">未开始</view>
+            </view>
+        </view>
+    </view>
+</view>

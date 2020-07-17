@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/rank/rank",
+    "pages/index/index",
+    "pages/challenge/challenge",
+    "pages/activity/activity",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "健康竞走首页",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#4ac483",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/common/images/index/index.png",
+        "selectedIconPath": "pages/common/images/index/index_s.png"
+      },
+      {
+        "pagePath": "pages/challenge/challenge",
+        "text": "挑战赛",
+        "iconPath": "pages/common/images/index/challenge.png",
+        "selectedIconPath": "pages/common/images/index/challenge_s.png"
+      },
+      {
+        "pagePath": "pages/rank/rank",
+        "text": "排行榜",
+        "iconPath": "pages/common/images/index/rank.png",
+        "selectedIconPath": "pages/common/images/index/rank_s.png"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "text": "活动",
+        "iconPath": "pages/common/images/index/activity.png",
+        "selectedIconPath": "pages/common/images/index/activity_s.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "pages/common/images/index/mine.png",
+        "selectedIconPath": "pages/common/images/index/mine_s.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,314 @@
+/**index.wxss**/
+.run_top {
+  position: relative;
+  width:100%;
+  height:700rpx;
+}
+.run_bg{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+/*左边连续打卡*/
+.clock_area{
+  position: absolute;
+  left:-35rpx;
+  top:30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height:70rpx;
+  background-color: #4ac583;
+  padding: 10rpx 20rpx 10rpx 50rpx;
+  border-radius: 50rpx;
+}
+.user_logo{
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  border: #fff 2rpx solid;
+  margin-right:10rpx;
+}
+.user_clock{
+  font-size: 20rpx;
+  color:#ffffff;
+}
+.clock_day{
+  font-size: 28rpx;
+  color: #ffeb8e;
+}
+/*右边积分显示*/
+.run_right{
+  position: absolute;
+  right:35rpx;
+  top:30px;
+}
+.score_area{
+  height: 70rpx;
+  display: flex;
+  align-items: center;
+  background-color: #4ac583;
+  padding: 10rpx 16rpx;
+  border-radius: 50rpx;
+  box-sizing: border-box;
+}
+.gold_icon{
+  width:30rpx;
+  height:30rpx;
+  margin-right: 10rpx;
+}
+.score{
+  color:#fff;
+  font-size: 24rpx;
+}
+/*右边邀请*/
+.invite, .friend{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30rpx;
+}
+.invite >image, .friend>image{
+  width:80rpx;
+  height:80rpx;
+}
+/*竞走中部*/
+.run_main{
+  position: relative;
+  top: 270rpx;
+  left:0;
+  display: flex;
+  justify-content: center;
+}
+/*今日已走步数*/
+.day_run_area{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.day_cricle{
+  width:220rpx;
+  height:220rpx;
+}
+.day_cont{
+  position: absolute;
+}
+.day_run_title{
+  color: #bbb;
+  font-size: 20rpx;
+  line-height: 20rpx;
+}
+.day_run_total{
+  color: #4ac583;
+  font-size: 40rpx;
+  line-height: 40rpx;
+  font-weight: bold;
+  margin-top: 20rpx;
+}
+/*立即兑换积分按钮*/
+.day_run_prompt{
+  position: absolute;
+  top: 170rpx;
+  color:#bbb;
+  font-size: 22rpx;
+}
+.run_btn{
+  width:250rpx;
+  height:60rpx;
+  font-size: 32rpx;
+  line-height: 32rpx;
+  font-weight: bold;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50rpx;
+  background: #bbb;
+}
+.run_btn.active{
+  background: linear-gradient(to right, #ffb533, #ff6633);
+}
+.day_run_reset{
+  width: 100%;
+  text-align: center;
+  line-height: 20rpx;
+  padding-top: 10rpx;
+}
+/*竞走日记、约友PK*/
+.day_run_tab{
+  width:100%;
+  position: relative;
+  top: -40rpx;
+  display: flex;
+  padding:0 30rpx;
+  box-sizing: border-box;
+}
+.day_run_tab .tab_img{
+  width:50%;
+  height:180rpx;
+}
+.day_run_tab .tab_img:first-child{
+  margin-right: 20rpx;
+}
+/*pk结果、组团赛*/
+.run_notice_box{
+  display: flex;
+  align-items: center;
+  background-color: #f8f8f8;
+  border-radius: 6rpx;
+  margin: 30rpx;
+}
+.run_notice_next{
+  width: 15rpx;
+  height:24rpx;
+  margin-right: 30rpx;
+  margin-left: 30rpx;
+}
+.run_notice{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28rpx 0 28rpx 32rpx;
+  box-sizing: border-box;
+}
+.run_notice:first-child{
+  border-bottom: 1px solid #eee;
+}
+.notice_txt{
+  font-size: 26rpx;
+  font-weight: bold;
+  line-height: 26rpx;
+}
+.pk_title{
+  color:#f76d58;
+}
+.team_title{
+  color:#fd5e98;
+}
+/*文字上下轮播*/
+.notice_warp{
+  width: 490rpx;
+  height:40rpx;
+  overflow: hidden;
+  padding-left:23rpx;
+  box-sizing: border-box;
+}
+.swiper-item{
+  display: flex;
+  justify-content: space-between;
+  color:#737373;
+  line-height:40rpx;
+  font-size:26rpx;
+  width: 100%;
+}
+.swiper_item_title{
+  display: inline-block;
+  overflow: hidden;/*超出部分隐藏*/
+  text-overflow:ellipsis;/* 超出部分显示省略号 */
+  white-space: nowrap;/*规定段落中的文本不进行换行 */
+}
+.notice_join{
+  width: 140rpx;
+  font-size:26rpx;
+  color:#FF6633;
+  padding-left: 20rpx;
+  text-align: right;
+}
+/*轮播*/
+.swiper_warp{
+  height:160rpx;
+  overflow: hidden;
+  margin:30rpx;
+}
+.swiper_img{
+  width: 100%;
+  height:150rpx;
+}
+/*竞走小知识*/
+.recommed_box{
+  margin-top: 30rpx;
+}
+.recommed_top{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.recommed_title{
+  font-size:30rpx;
+  color:#FF7433;
+}
+.recommed_title image{
+  width:21rpx;
+  height:27rpx;
+}
+.recommed_title text{
+  padding: 0 15rpx;
+}
+.recommed_more{
+  position: absolute;
+  right:30rpx;
+  display: flex;
+  align-items: center;
+  color:#ccc;
+  font-size:24rpx;
+  font-weight:400;
+}
+.recommed_more image{
+  width:15rpx;
+  height:24rpx;
+  margin-left: 10rpx;
+}
+/*内容1（1张图）*/
+.recommed_container{
+  padding: 30rpx;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
+}
+.recommed1_image{
+  width: 100%;
+  height:240rpx;
+  border-radius: 4rpx;
+}
+.recommed_desc{
+  font-size:32rpx;
+  line-height: 32rpx;
+  color:#000;
+  padding: 20rpx 0;
+}
+.recommed_look{
+  display: flex;
+  align-items: center;
+  font-size:22rpx;
+  color:#ccc;
+}
+.recommed_eye{
+  width:26rpx;
+  height:19rpx;
+  margin-right: 6rpx;
+}
+/*3张图*/
+.recommed1_banner{
+  display: flex;
+  justify-content: space-between;
+}
+.recommed1_banner image{
+  height:240rpx;
+  margin-right: 10rpx;
+  border-radius: 4rpx;
+}
+.recommed1_banner image:nth-child(3){
+  margin-right: 0;
+}
+/*1张图,左右分布*/
+.recommed2{
+  display: flex;
+  justify-content: space-between;
+}
+.recommed2_image{
+  width: 220rpx;
+  height:150rpx;
+  margin-right: 20rpx;
+}

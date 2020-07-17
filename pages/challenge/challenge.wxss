@@ -1,0 +1,140 @@
+.container{
+    background-color: #4AC583;
+}
+.challenge_top {
+    position: relative;
+    width:100%;
+    height:480rpx;
+}
+.challenge_bg{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.challenge_bot{
+    position: relative;
+    top: -30rpx;
+    padding: 30rpx 30rpx 0;
+    box-sizing: border-box;
+}
+.challenge_main{
+    background-color: #F5F5F5;
+    border-radius: 6rpx;
+    overflow: hidden;
+}
+.challenge_tab{
+    display: flex;
+    justify-content: space-between;
+}
+.challenge_tab>text{
+    width: calc(100% / 3);
+    text-align: center;
+    padding: 26rpx 0;
+    color:#BBBBBB;
+    font-size: 30rpx;
+}
+.challenge_tab>text.active{
+    color:#4AC583;
+    background-color: #ffffff;
+    font-weight: bolder;
+}
+/*内容*/
+.challenge_box{
+    background-color: #ffffff;
+    padding-bottom: 38rpx;
+    margin-bottom: 20rpx;
+}
+.challenge_box:last-child{
+    margin-bottom: 0;
+}
+.challenge_box_title{
+    position: relative;
+    padding-top: 45rpx;
+}
+.challenge_title{
+    display: flex;
+    justify-content: center;
+}
+.challenge_title>text{
+    font-size: 34rpx;
+    font-weight: bold;
+    color:#333333;
+    padding-right: 20rpx;
+}
+.challenge_status{
+    position: absolute;
+    top: 45rpx;
+    right:-25rpx;
+    font-size:24rpx;
+    padding: 10rpx 35rpx 10rpx 15rpx;
+    box-sizing: border-box;
+    border-radius: 50rpx;
+}
+/*报名中*/
+.box_entry .challenge_status{
+    background-color: #4AC583;
+    color:#fff;
+}
+.box_entry .challenge_btn{
+     background-color: #4AC583;
+ }
+.box_entry .challenge_count{
+    color:#06CBA5;
+}
+/*进行中*/
+.box_ong .challenge_status{
+    background-color: #FF6633;
+    color:#fff;
+}
+.box_ong .challenge_btn{
+    background:rgba(255,219,207,1);
+}
+.box_ong .challenge_count{
+    color:#FF6633;
+}
+.challenge_box_subTitle{
+    width:100%;
+    text-align: center;
+    font-size:22rpx;
+    line-height: 22rpx;
+    color: #BBBBBB;
+    padding-top: 10rpx;
+
+}
+.challenge_box_total{
+    display: flex;
+    justify-content:center;
+    padding: 45rpx 0 60rpx;
+}
+.challenge_count{
+   flex: 1;
+}
+.challenge_count_tit{
+    color:#999999;
+    font-size:22rpx;
+    padding-bottom: 10rpx;
+    width: 100%;
+    text-align: center;
+}
+.challenge_count{
+    font-size:40rpx;
+    font-weight:400;
+    width: 100%;
+    text-align: center;
+}
+.challenge_border{
+    border-right: 1rpx solid #F5F5F5;
+}
+.challenge_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:34rpx;
+    font-weight: bold;
+    padding: 24rpx 0;
+    border-radius: 50rpx;
+    color:#fff;
+    margin: 0 75rpx;
+}

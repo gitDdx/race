@@ -1,0 +1,134 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="run_top">
+    <image class="run_bg" src="../common/images/index/run_bg.png"></image>
+    <view class="clock_area">
+      <view class="user_logo">
+        <image src="{{}}"></image>
+      </view>
+      <view class="user_clock">
+        <text>连续打卡</text>
+        <view><text class="clock_day">25</text>天</view>
+      </view>
+    </view>
+    <view class="run_right">
+      <view class="score_area">
+        <image src="../common/images/index/gold.png" class="gold_icon"></image>
+        <view class="score">78999积分</view>
+      </view>
+      <view class="invite">
+        <image src="../common/images/index/invite.png"></image>
+      </view>
+      <view class="friend">
+        <image src="../common/images/index/friend.png"></image>
+      </view>
+    </view>
+    <view class="run_main">
+      <view class="day_run_area">
+        <image class="day_cricle" src="../common/images/index/day_cricle.png"></image>
+        <view class="day_cont">
+          <view class="day_run_title">今日已走步数</view>
+          <view class="day_run_total">21266</view>
+        </view>
+      </view>
+      <view class="day_run_prompt">
+        <view class="run_btn active">立即兑换积分</view>
+        <view class="day_run_reset">每日24点清零</view>
+      </view>
+    </view>
+  </view>
+  <view class="day_run_tab">
+    <image class="tab_img" src="../common/images/index/diary.png"></image>
+    <image class="tab_img" src="../common/images/index/friendPK.png"></image>
+  </view>
+  <view class="run_notice_box">
+    <view class="run_notice_flex">
+      <view class="run_notice">
+        <text class="notice_txt pk_title">PK结果</text>
+        <view class="notice_warp">
+          <swiper autoplay="true" circular="true" interval="2000"
+                  duration="500" vertical="true">
+            <block wx:for="{{pkNoticeList}}" wx:key="*this">
+              <swiper-item>
+                <view class="swiper-item">
+                  <text class="swiper_item_title">{{item.title}}</text>
+                </view>
+              </swiper-item>
+            </block>
+          </swiper>
+        </view>
+      </view>
+      <view class="run_notice">
+        <text class="notice_txt team_title">组团赛</text>
+        <view class="notice_warp">
+          <swiper autoplay="true" circular="true" interval="2500"
+                  duration="600" vertical="true">
+            <block wx:for="{{teamNoticeList}}" wx:key="*this">
+              <swiper-item>
+                <view class="swiper-item">
+                  <text class="swiper_item_title">{{item.title}}</text>
+                  <text class="notice_join">立即参与</text>
+                </view>
+              </swiper-item>
+            </block>
+          </swiper>
+        </view>
+      </view>
+    </view>
+    <image class="run_notice_next" src="../common/images/index/next.png" alt="next"></image>
+  </view>
+  <view class="swiper_warp">
+    <swiper indicator-dots="true" indicator-color="#CCCCCC"
+            indicator-active-color="#444444"
+            autoplay="true" circular="true" interval="2000" duration="500">
+      <block wx:for="{{bannerList}}" wx:key="*this">
+        <swiper-item>
+          <image class="swiper_img" src="{{item.url}}" alt="banner图"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="recommed_box">
+    <view class="recommed_top">
+      <view class="recommed_title">
+        <image src="../common/images/index/tit_left.png"></image>
+        <text>竞走小知识</text>
+        <image src="../common/images/index/tit_right.png"></image>
+      </view>
+      <view class="recommed_more">
+        <text>更多</text>
+        <image src="../common/images/index/next.png"></image>
+      </view>
+    </view>
+    <view class="recommed_container recommed1">
+      <image class="recommed1_image" src="../common/images/index/run_bg.png"></image>
+      <view class="recommed_desc">竞走的好处有哪些?竞走的注意事项要牢记!</view>
+      <view class="recommed_look">
+        <image class="recommed_eye" src="../common/images/index/eye.png"></image>
+        <text>365</text>
+      </view>
+    </view>
+    <view class="recommed_container recommed2">
+      <image class="recommed2_image" src="../common/images/index/run_bg.png"></image>
+      <view>
+        <view class="recommed_desc">竞走的好处有哪些?竞走的注意事项要牢记!</view>
+        <view class="recommed_look">
+          <image class="recommed_eye" src="../common/images/index/eye.png"></image>
+          <text>365</text>
+        </view>
+      </view>
+    </view>
+    <view class="recommed_container recommed1">
+      <view class="recommed1_banner">
+        <image class="" src="../common/images/index/run_bg.png"></image>
+        <image class="" src="../common/images/index/run_bg.png"></image>
+        <image class="" src="../common/images/index/run_bg.png"></image>
+      </view>
+      <view class="recommed_desc">竞走的好处有哪些?竞走的注意事项要牢记!</view>
+      <view class="recommed_look">
+        <image class="recommed_eye" src="../common/images/index/eye.png"></image>
+        <text>365</text>
+      </view>
+    </view>
+  </view>
+</view>
